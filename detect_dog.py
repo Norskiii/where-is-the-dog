@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import os
 
+# YOLOv3 weights can be downloaded from: https://pjreddie.com/media/files/yolov3.weights
 ##### DEFINE WEIGHT AND MODEL FILES HERE #####
 weights = "bin/yolov3.weights"
 model = "cfg/yolov3.cfg"
